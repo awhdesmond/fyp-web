@@ -73,7 +73,8 @@ class AnalyseView extends Component {
     analyseResult.query = analyseQuery;
     this.setState({
       isAnalysing: false,
-      analyseResult: analyseResult
+      analyseResult: analyseResult,
+      error: '',
     });
   }
 
