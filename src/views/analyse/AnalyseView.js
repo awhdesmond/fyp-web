@@ -66,6 +66,7 @@ class AnalyseView extends Component {
       this.setState({
         isAnalysing: false,
         error: analyseResult.error,
+        analyseResult: {},
       });
       return;
     }
